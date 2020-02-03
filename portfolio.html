@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,11 +12,11 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     <div class="container">
       <div class="row pl-md-10">
-        <div class="col-md-4"><h1>Alex Rodondi</h1></div>
-        <div class="col-md-4 bg-info"><h1>Portfolio</h1></div>
+        <div class="col-md-4 bg-info"><h1>Alex Rodondi</h1></div>
+        <div class="col-md-4"><h1>Portfolio</h1></div>
         <div class="col-md-4">
           <nav class="nav">
             <a class="nav-link active text-secondary" href="index.html"
@@ -37,7 +37,7 @@
           <div class="row text-center">
             <div class="col-md-4 bg-danger">
               <img
-                class="img-thumbnail rounded-circle"
+                class="img-thumbnail"
                 src="https://atrodondi.github.io/assets/images/proj1.jpg"
                 alt="proj1"
               />
@@ -49,7 +49,7 @@
             </div>
             <div class="col-md-4 bg-danger">
               <img
-                class="img-thumbnail rounded-circle"
+                class="img-thumbnail"
                 src="https://atrodondi.github.io/assets/images/proj2.jpg"
                 alt="squinty dog"
               />
@@ -59,18 +59,28 @@
                 </button>
               </div>
             </div>
+            <div class="card" style="width: 160px;">
+              <img
+                src="https://atrodondi.github.io/assets/images/proj1.jpg"
+                class="card-img-top"
+                alt="anotherdog"
+              />
+              <div class="card-body">
+                <a href="#" class="btn  btn-lg btn-primary">Project 3</a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-3 bg-secondary"></div>
       </div>
 
       <div class="row text-center">
-        <div class="col-md-3"></div>
+        <div class="col-md-3 bg-danger"></div>
         <div class="col-md-6">
           <div class="row mt-md-3 ml-md-5">
             <div class="col-md-4">
               <img
-                class="img-thumbnail rounded-circle"
+                class="img-thumbnail"
                 src="https://atrodondi.github.io/assets/images/proj3.jpg"
                 alt="proj3"
               />
@@ -82,9 +92,9 @@
             </div>
             <div class="col-md-4">
               <img
-                class="img-thumbnail rounded-circle"
+                class="img-thumbnail"
                 src="https://atrodondi.github.io/assets/images/proj4.jpg"
-                alt="squinty dog"
+                alt="tiny dog"
               />
               <div>
                 <button type="button" class="btn btn-info btn-block">
@@ -94,7 +104,7 @@
             </div>
             <div class="col-md-4">
               <img
-                class="img-thumbnail rounded-circle"
+                class="img-thumbnail"
                 src="https://atrodondi.github.io/assets/images/proj5.jpg"
                 alt="last one"
               />
@@ -106,13 +116,13 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3"></div>
+        <div class="col-md-3 bg-danger"></div>
       </div>
-      <footer class="footer bg-secondary mt-auto py-3 text-center">
-        <div class="container">
-          <span class="text-light text-center"> Copy Right, Bro!</span>
-        </div>
-      </footer>
     </div>
+    <footer class="footer bg-secondary mt-auto py-3 text-center">
+      <div>
+        <span class="text-light text-center"> Copy Right, Bro!</span>
+      </div>
+    </footer>
   </body>
 </html>
